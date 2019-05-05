@@ -9,7 +9,7 @@
     
     $(window) 
         .resize(winResizeHandler)
-        .keydown(function(e){
+        .keypress(function(e){
             e.preventDefault();
             initGame();
             console.log('keydown');
