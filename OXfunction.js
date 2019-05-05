@@ -15,10 +15,12 @@
             console.log('keydown');
         });
         
-    
     winResizeHandler();
     
-    
+    $(".ss").on("click", function(){
+        console.log("click ss");
+        initGame();
+    });
     
     
     //show arrow left or right depand of player1 or 2
